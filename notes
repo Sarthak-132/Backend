@@ -1,0 +1,5 @@
+---> npm init - initializ project
+---> npm run [script name] ] - run script
+---> npm install [package name] - install package
+---> node [file name] - run file
+---> node [file name with extension] - run file

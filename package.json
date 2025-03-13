@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "join": "Join it here"
+    "join": "Join it here",
+    "start": "node math.js",
+    "dev": "node world.js"
   },
   "author": "",
   "license": "ISC",
