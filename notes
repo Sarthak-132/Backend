@@ -3,3 +3,7 @@
 ---> npm install [package name] - install package
 ---> node [file name] - run file
 ---> node [file name with extension] - run file
+---> sync - blocking
+---> Async - Non-Blocking
+---> default thread pool size is 4 depends on CPU core it can not inhance.
+---> threads are like a workers, they fulfill our work and return output to us.
