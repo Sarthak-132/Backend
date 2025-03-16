@@ -1,5 +1,5 @@
 ---> npm init - initializ project
----> npm run [script name] ] - run script
+---> npm run [script name] - run script
 ---> npm install [package name] - install package
 ---> node [file name] - run file
 ---> node [file name with extension] - run file
@@ -7,3 +7,7 @@
 ---> Async - Non-Blocking
 ---> default thread pool size is 4 depends on CPU core it can not inhance.
 ---> threads are like a workers, they fulfill our work and return output to us.
+http server -> in server folder when we are executing index file it is creating log file and process request then give information in log file. first time information (1742015436380: /favicon.ico new request received) 2nd time (1742015438469: / new request received) it is browser generated fav.icon
+---> on parametter query on host url - http://localhost:8000/contact?myname=reyon it will give 404 because of default case we have not given anything on that particular url so output - 404(switch case index.js) and then server log processed...................
+1742022385900: /contact?myname=reyon new request received
+note : here http module is not parse to http url it can not differentiate between path and query parameter so we have to use external package for it. (npmjs.com)... package name url
