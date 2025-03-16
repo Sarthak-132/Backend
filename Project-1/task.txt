@@ -1,0 +1,27 @@
+REST API - JSON
+
+NOTE --------->
+---> browser can not create POST, PATCH, DELETE request
+---> browser can only create GET request
+
+
+
+=> we are going to create hybrid server  
+
+* GET /users = HTML DOCS render                -  for browser / desktop / app ✔
+
+* GET /api/users = List all JSON - DONE        - for mobile app ✔
+
+GET /api/users/1 = Get the user with id 1      - ✔
+
+GET /api/users/2 = Get the user with id 2      - ✔
+
+POST /users = create new users 
+
+PATCH /users/1 = edit the user with id 1
+
+
+
+=> Dynamic Path Parameter
+
+GET /api/users/:id  ---> :id (id is dynamic path parameter) ---> Variable / Dynamic
